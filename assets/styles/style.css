@@ -6,6 +6,7 @@ body {
 
 .container-for-header{
     background-color: #222;
+    
 }
 
 .container{
@@ -16,14 +17,11 @@ body {
 
 .header{
     display: flex;
-    /* justify-content: space-between; */
-    /* width: 1000px; */
     height: 75px;
     align-items: center;
 }
 
 .header-container{
-    /* background-color: blue; */
     width: 1140px;
     display: flex;
     margin-left: auto;
@@ -33,30 +31,16 @@ body {
 }
 
 .intro-contaier{
-    /* width: 1140px; */
-    /* display: flex; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* justify-content: space-between;
-    align-items: center; */
-    background-color: #F1E4E6;;
+    background-color: #F1E4E6;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 .intro{
     display: flex;
     max-width: 1600px;
-    margin-bottom: 65px;
-    /* align-content: center; */
-    
-
-}
-.main-photo{
-    /* display: flex; */
-}
-
-.text_title{
-    /* margin: 291px; */
-    /* margin-right: 331px; */
-    /* margin: 0px; */
+    margin-bottom: 65px; 
 }
 
 .right-side{
@@ -70,8 +54,7 @@ body {
     background-color: #F16D7F;;
     width: 12px;
     height: 92px;
-    /* margin-right: 16px; */
-    /* margin-top: 290px; */
+
 
 }
 
@@ -92,7 +75,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* margin: 0; */
+
 }
 
 .second-line-second-word{
@@ -102,7 +85,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* margin: 0; */
+
 }
 .second-line{
     margin: 0;
@@ -247,4 +230,5 @@ body {
     font-weight: 400;
     line-height: normal;
     background-color: white;
+    cursor: pointer;
 }
