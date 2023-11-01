@@ -182,3 +182,69 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.selection-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+
+.selection-text{
+    padding: 24px 16px;
+    background-color: #F8F8F8;;
+}
+
+.selection-title{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.selection-explanation{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 314.743px;
+}
+
+.selection-price{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-browse{
+    /* padding: 15px 39px 14px 39px; */
+    padding-top: 15px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: center;
+    width: 212px;
+    height: 48px;
+    border: #FF6A6A solid 2px;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+}
