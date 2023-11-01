@@ -7,6 +7,13 @@ body {
 .container-for-header{
     background-color: #222;
 }
+
+.containet{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header{
     display: flex;
     /* justify-content: space-between; */
@@ -37,6 +44,7 @@ body {
 .intro{
     display: flex;
     max-width: 1600px;
+    margin-bottom: 65px;
     /* align-content: center; */
     
 
@@ -98,4 +106,16 @@ body {
 }
 .second-line{
     margin: 0;
+}
+
+.clothes-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+    gap: 30px;
+
+}
+
+.clothes-type-acc{
+    grid-column: span 3;
 }
