@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+    margin: 0;
+}
+
+.container-for-header{
+    background-color: #222;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 1000px; */
+    height: 75px;
+    align-items: center;
+}
+
+.header-container{
+    /* background-color: blue; */
+    width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-contaier{
+    /* width: 1140px; */
+    /* display: flex; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* justify-content: space-between;
+    align-items: center; */
+    background-color: #F1E4E6;;
+}
+.intro{
+    display: flex;
+    max-width: 1600px;
+    /* align-content: center; */
+    
+
+}
+.main-photo{
+    /* display: flex; */
+}
+
+.text_title{
+    /* margin: 291px; */
+    /* margin-right: 331px; */
+    /* margin: 0px; */
+}
+
+.right-side{
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+    align-items: center;
+}
+
+.rectangle {
+    background-color: #F16D7F;;
+    width: 12px;
+    height: 92px;
+    /* margin-right: 16px; */
+    /* margin-top: 290px; */
+
+}
+
+.intro-word{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+}
+
+.second-line-first-word{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 0; */
+}
+
+.second-line-second-word{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 0; */
+}
+.second-line{
+    margin: 0;
+}
