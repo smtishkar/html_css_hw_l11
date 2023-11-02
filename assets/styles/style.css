@@ -6,7 +6,6 @@ body {
 
 .container-for-header {
     background-color: #222;
-
 }
 
 .container {
@@ -28,6 +27,7 @@ body {
     margin-right: auto;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .intro-contaier {
