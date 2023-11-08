@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+h1,h2,p{
+    margin: 0;
+}
+
 .container-for-header {
     background-color: #222;
 }
@@ -18,6 +22,7 @@ body {
     display: flex;
     height: 75px;
     align-items: center;
+    max-width: 100%;
 }
 
 .header-container {
@@ -234,4 +239,29 @@ body {
     line-height: normal;
     background-color: white;
     cursor: pointer;
+}
+
+@media screen and (max-width:1439px) {
+
+    .container {
+        width: 740px;
+    }
+
+    .header {
+        min-width: 767px;
+        align-items: center;
+    }
+
+    .intro-contaier{
+        max-width: 767px;
+        align-items: center;
+    }
+
+    .clothes-type{
+        gap: 22px
+        ;
+    }
+
+
+
 }
