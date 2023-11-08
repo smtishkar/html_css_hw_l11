@@ -4,7 +4,9 @@ body {
     margin: 0;
 }
 
-h1,h2,p{
+h1,
+h2,
+p {
     margin: 0;
 }
 
@@ -35,22 +37,19 @@ h1,h2,p{
 
 }
 
-.left-logo{
+.left-logo {
     display: flex;
-    /* margin-left: 32px; */
     gap: 41px;
     align-items: center
 }
 
-.commo-right-logo{
+.commo-right-logo {
     display: flex;
-    gap: 42px
-    ;
+    gap: 42px;
 }
 
-.right-2-logo{
+.right-2-logo {
     display: flex;
-    /* margin-left: 32px; */
     gap: 25px;
     align-items: center
 }
@@ -244,7 +243,6 @@ h1,h2,p{
 }
 
 .button-browse {
-    /* padding: 15px 39px 14px 39px; */
     padding-top: 15px;
     padding-bottom: 14px;
     display: flex;
@@ -266,7 +264,7 @@ h1,h2,p{
 
 
     .header-container {
-        width: 695px;    
+        width: 695px;
     }
 
     .container {
@@ -278,7 +276,7 @@ h1,h2,p{
         align-items: center;
     }
 
-    .intro-contaier{
+    .intro-contaier {
         max-width: 767px;
         align-items: center;
     }
@@ -287,19 +285,19 @@ h1,h2,p{
         gap: 16px;
     }
 
-    .intro-word{
+    .intro-word {
         font-size: 44px;
     }
 
-    .second-line-first-word{
+    .second-line-first-word {
         font-size: 24px;
     }
 
-    .second-line-second-word{
+    .second-line-second-word {
         font-size: 24px;
     }
 
-    .clothes-type{
+    .clothes-type {
         gap: 20px;
     }
 
