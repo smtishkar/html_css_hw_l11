@@ -35,6 +35,27 @@ h1,h2,p{
 
 }
 
+.left-logo{
+    display: flex;
+    /* margin-left: 32px; */
+    gap: 41px;
+    align-items: center
+}
+
+.commo-right-logo{
+    display: flex;
+    gap: 42px
+    ;
+}
+
+.right-2-logo{
+    display: flex;
+    /* margin-left: 32px; */
+    gap: 25px;
+    align-items: center
+}
+
+
 .intro-contaier {
     background-color: #F1E4E6;
     margin-left: auto;
@@ -243,6 +264,11 @@ h1,h2,p{
 
 @media screen and (max-width:1439px) {
 
+
+    .header-container {
+        width: 695px;    
+    }
+
     .container {
         max-width: 740px;
     }
@@ -274,7 +300,7 @@ h1,h2,p{
     }
 
     .clothes-type{
-        gap: 22px;
+        gap: 20px;
     }
 
     .clothes-type-acc {
@@ -296,4 +322,13 @@ h1,h2,p{
         margin-top: 13px;
         margin-bottom: 18px;
     }
+
+    .centered-text {
+        text-align: center;
+    }
+
+    .proposal-second-line {
+        width: 200px;
+    }
+
 }
