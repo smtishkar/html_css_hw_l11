@@ -55,18 +55,29 @@ p {
 }
 
 
-.intro-contaier {
+.container-for-intro{
     background-color: #F1E4E6;
+}
+
+.intro-contaier {
+    /* background-color: #F1E4E6; */
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
 
 }
 
 .intro {
     display: flex;
-    max-width: 1600px;
+    /* max-width: 1600px; */
+    max-width: 100%;
     margin-bottom: 65px;
+    align-items: center;
 }
+
+
 
 .right-side {
     display: flex;
