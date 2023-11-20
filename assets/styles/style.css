@@ -55,7 +55,7 @@ p {
 }
 
 
-.container-for-intro{
+.container-for-intro {
     background-color: #F1E4E6;
 }
 
@@ -342,17 +342,17 @@ p {
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
     .header-container {
         width: 343px;
     }
 
-    .rlogo3{
+    .rlogo3 {
         display: none;
     }
 
-    .rlogo2{
+    .rlogo2 {
         display: none;
     }
 
@@ -361,7 +361,7 @@ p {
         align-items: center;
     }
 
-    .man-picture{
+    .man-picture {
         display: none;
     }
 
@@ -375,12 +375,12 @@ p {
         max-width: 375px;
     }
 
-    .clothes-type{
+    .clothes-type {
         display: flex;
         flex-direction: column;
     }
 
-    .clothes-type-acc{
+    .clothes-type-acc {
         display: flex;
         flex-direction: column;
         margin-bottom: 64px;
@@ -405,9 +405,10 @@ p {
         background-color: #F16D7F;
         width: 12px;
         height: 61px;
-    
-    
+
+
     }
+
     .intro-word {
         color: #222;
         font-family: Lato;
@@ -416,7 +417,7 @@ p {
         font-weight: 900;
         line-height: normal;
     }
-    
+
     .second-line-first-word {
         color: #222;
         font-family: Lato;
@@ -424,9 +425,9 @@ p {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-    
+
     }
-    
+
     .second-line-second-word {
         color: #F16D7F;
         font-family: Lato;
@@ -434,15 +435,16 @@ p {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-    
+
     }
-    
+
     .second-line {
         margin: 0;
     }
 
     .intro {
-        margin-bottom: 64px;;
+        margin-bottom: 64px;
+        ;
     }
 
     .clothes-type {
@@ -453,10 +455,9 @@ p {
     .features {
         margin-bottom: 65px;
     }
+
     .button {
         margin-top: 41px;
         margin-bottom: 85px;
-        /* display: flex;
-        justify-content: center; */
     }
 }
