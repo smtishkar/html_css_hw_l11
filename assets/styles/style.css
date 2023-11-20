@@ -341,3 +341,122 @@ p {
     }
 
 }
+
+@media screen and (max-width: 767px){
+
+    .header-container {
+        width: 343px;
+    }
+
+    .rlogo3{
+        display: none;
+    }
+
+    .rlogo2{
+        display: none;
+    }
+
+    .header {
+        min-width: 167px;
+        align-items: center;
+    }
+
+    .man-picture{
+        display: none;
+    }
+
+    .intro-contaier {
+        max-width: 375px;
+        align-items: center;
+        height: 363px;
+    }
+
+    .container {
+        max-width: 375px;
+    }
+
+    .clothes-type{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clothes-type-acc{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .selection-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        align-items: center;
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+
+    .rectangle {
+        background-color: #F16D7F;
+        width: 12px;
+        height: 61px;
+    
+    
+    }
+    .intro-word {
+        color: #222;
+        font-family: Lato;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .second-line-first-word {
+        color: #222;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+    
+    .second-line-second-word {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+    }
+    
+    .second-line {
+        margin: 0;
+    }
+
+    .intro {
+        margin-bottom: 64px;;
+    }
+
+    .clothes-type {
+        gap: 32px;
+        align-items: center;
+    }
+
+    .features {
+        margin-bottom: 65px;
+    }
+    .button {
+        margin-top: 41px;
+        margin-bottom: 85px;
+        /* display: flex;
+        justify-content: center; */
+    }
+}
