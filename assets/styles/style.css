@@ -251,6 +251,7 @@ p {
     margin-top: 48px;
     display: flex;
     justify-content: center;
+    margin-bottom: 95px;
 }
 
 .button-browse {
@@ -269,6 +270,225 @@ p {
     line-height: normal;
     background-color: white;
     cursor: pointer;
+}
+
+.add-value {
+    display: flex;
+    height: 341px;
+    align-items: center;
+    /* max-width: 100%; */
+}
+
+.add-value-container{
+    /* width: 1140px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+.add-value-color-container{
+    background-color: #222224;
+}
+
+.add-value-title{
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;    
+}
+
+.add-value-text{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    width: 359px;
+}
+
+.add-value-item{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe{
+    height: 448px;
+    max-width: 100%;
+    /* display: flex;
+    justify-content: center;
+    gap: 0px; */
+    background-image: url("../img/subscribe.png");
+
+}
+
+.subscribe-info{
+    /* display: flex; */
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+    height: 448px;
+}
+
+.subscribe-person{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-image{
+    margin-top: 97px;
+}
+
+.subscribe-person-text{
+    margin-top: 30px;
+    width: 360px;
+    display: flex;
+    /* color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; */
+}
+
+.subscribe-person-text-first-part{
+    /* margin-top: 30px;
+    width: 360px; */
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-person-text-second-part{
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.subscribe-actions {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 193px;
+    margin-top: 150px;
+}
+
+
+.subscribe-actions-first-line{
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.subscribe-actions-second-line{
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.btn-layout {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 49px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input_email {
+    border: none;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 22px;
+    color: #222224;
+    background-color: #E1E1E1;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-subscribe {
+    border: none;
+    width: 100px;
+    height: 100%;
+    background-color:#F16D7F;
+    color: #FFFFFF;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-container{
+    height: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-color-container{
+    background-color: #222224;;
+}
+
+.container-for-footer-info{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.rights-title{
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 @media screen and (max-width:1439px) {
