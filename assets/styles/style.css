@@ -54,6 +54,10 @@ p {
     align-items: center
 }
 
+.button-for-logo1{
+    background-color: #222;
+    border: #222;
+}
 
 .container-for-intro {
     background-color: #F1E4E6;
@@ -146,6 +150,8 @@ p {
 
 .clothes-item {
     position: relative;
+    /* filter: brightness(60%) */
+
 }
 
 .centered-text {
@@ -153,6 +159,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+
 }
 
 .proposal-first-line {
@@ -210,6 +218,49 @@ p {
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
+
+.product-card-img-cont{
+    position: relative;
+}
+
+.product-card-img-cont:before {
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;left:0;right:0;
+    background-color:rgba(0,0,0,0);
+  }
+
+  .product-card-img-cont:hover::before {
+    background: rgba(58, 56, 56, 0.86);
+  }
+
+  .product-card-img-cont .product-btn {
+    width: 138px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity:0;
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  } 
+  .product-card-img-cont:hover button {   
+    opacity: 1;
+  }
 
 .selection-text {
     padding: 24px 16px;
@@ -270,6 +321,11 @@ p {
     line-height: normal;
     background-color: white;
     cursor: pointer;
+}
+
+.button-browse:hover{
+    background-color: #F16D7F;
+    color: #FFF;
 }
 
 .add-value {
@@ -496,6 +552,10 @@ p {
 .icons{
     display: flex;
     gap: 7px;
+}
+
+.icon-fill:hover{
+    fill: #F16D7F;
 }
 
 @media screen and (max-width:1439px) {
