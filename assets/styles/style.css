@@ -46,6 +46,7 @@ p {
 .commo-right-logo {
     display: flex;
     gap: 42px;
+    align-items: center;
 }
 
 .right-2-logo {
@@ -53,50 +54,6 @@ p {
     gap: 25px;
     align-items: center
 }
-
-/* .button-for-logo1{
-    background-color: #222;
-    border: #222;
-} */
-
-/* .menu{
-    display: flex;
-}
-
-.menu li {
-    width: 100px;
-    list-style: none;
-    background-color: #383c54;
-    position: relative;
-    padding: 1em;
-}
-
-.menu a{
-    color: #FFF;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    padding: 0 10px;
-    height: 40px;
-    line-height: 40px;
-    transition: all .5s;
-}
-
-.menu a:hover{
-    background: #808291;
-}
-
-.menu ul{
-    position: absolute;
-    left: 0;
-    top: 100%;
-    display: none;
-    padding: 0;
-}
-
-.menu li:hover ul{
-    display: block;
-} */
 
 .submenu{
     /* display: none; */
@@ -128,16 +85,8 @@ li:hover > .submenu {
     height: auto;
     margin: 0;
     left: 100%;
-    top: 0;
-    border: 1px solid black;
-
-    
-
+    top: 0; 
 }
-
-/* .menu{
-    background-color: purple;
-} */
 
 .rlogo1{
     background-color: #222;
@@ -147,9 +96,30 @@ a{
     display: block;
     color: black;
     text-decoration: none;
-    background-color: #ccc;
+    background-color: #FFF;
     padding: 1em;
     white-space: nowrap;
+
+}
+
+.menu-point{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: black solid 1px;
+}
+
+.submenu-point{
+    color: #6F6E6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: black solid 1px;
 }
 
 a:hover {
@@ -484,6 +454,7 @@ a:hover {
     justify-content: center;
     gap: 0px; */
     background-image: url("../img/subscribe.png");
+    background-size: 100%;
 
 }
 
