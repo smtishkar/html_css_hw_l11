@@ -369,6 +369,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%,-50%);
     cursor: pointer;
+    z-index: 2;
     
 }
 
@@ -377,15 +378,27 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 11px;
-
-
 }
 
-.product-card-img-cont:hover{
+/* .product-card-img-cont:hover{
     background: rgba(58, 56, 56, 0.86);
+} */
+
+.product-card-img-cont::after{
+    content: '';
+    background: rgba(58, 56, 56, 0.86);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
 
 }
 
+.product-card-img-cont:hover::after{
+    display: block;
+}
 
 .selection-text {
     padding: 24px 16px;
