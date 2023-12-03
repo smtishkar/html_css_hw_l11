@@ -81,10 +81,11 @@ li {
 li:hover>.submenu {
     display: flex;
     clip: auto;
-    width: 200px;
+    width: 130px;
     height: auto;
     margin: 0;
     left: 100%;
+    /* right: 100%; */
     top: 0;
 }
 
@@ -740,6 +741,18 @@ a:hover {
     .header {
         min-width: 740px;
         align-items: center;
+    }
+
+    li:hover>.submenu {
+        display: flex;
+        clip: auto;
+        width: 130px;
+        height: auto;
+        margin: 0;
+        left: -100%;
+        /* margin-right: 100px; */
+        /* right: 100%; */
+        /* top: 0; */
     }
 
     .intro-contaier {
