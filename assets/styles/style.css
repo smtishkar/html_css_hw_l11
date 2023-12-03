@@ -795,6 +795,109 @@ a:hover {
         width: 200px;
     }
 
+    .button {
+        margin-bottom: 65px;
+    }
+
+    .add-value {
+        /* display: flex; */
+        height: 610px;
+        /* align-items: center; */
+        /* max-width: 100%; */
+    }
+
+    .add-value-container {
+        /* width: 1140px; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* display: flex; */
+        /* align-items: center; */
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .add-value-title {
+        margin-top: 28px;
+    }
+
+    .add-value-text {
+        /* color: #FBFBFB;
+        text-align: center;
+        font-family: Lato;
+        font-size: 13.972px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 16px; */
+        width: 300px;
+
+    }
+
+    .subscribe {
+        height: 693px;
+        max-width: 100%;
+        display: flex;
+        /* justify-content: center;
+        gap: 0px; */
+        background-image: url("../img/subscrive\(small\).png");
+        background-size: 100%;
+    
+    }
+
+    .subscribe-info {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        display: grid; */
+        /* grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr; */
+        gap: 48px;
+        /* margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+        height: 448px; */
+    }
+
+    .subscribe-person {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-actions {
+        /* grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center; */
+        margin-left: 0px; 
+        margin-top: 0px;
+    }
+
+    .person-image {
+        margin-top: 65px;
+    }
+
+    .btn-layout {
+        padding-top: 27px;
+        /* padding-bottom: 30px;
+        height: 49px;
+        display: flex;
+        font-size: 14px;
+        font-weight: 400; */
+    }
+
+    .container-for-footer-info {
+        max-width: 740px;
+        /* width: 1140px; */
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -915,4 +1018,79 @@ a:hover {
         margin-top: 41px;
         margin-bottom: 85px;
     }
+
+    .button {
+        margin-bottom: 97px;
+    }
+
+    .add-value-title {
+        margin-top: 27px;
+    }
+
+    .add-value-text {
+        margin-top: 15px;
+
+    }
+
+    .add-value-container {
+        /* width: 1140px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr; */
+        gap: 47px;
+    }
+
+    .subscribe {
+        height: 550px;
+        max-width: 100%;
+        /* display: flex; */
+        /* justify-content: center;
+        gap: 0px; */
+        background-image: url("../img/subscrive\(phone\).png");
+        /* background-size: 100%; */
+    
+    }
+
+    .person-image {
+        margin-top: 64px;
+    }
+
+    .subscribe-info {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 60px;
+    }
+
+    .footer-container {
+        height: 143px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+    .container-for-footer-info {
+        max-width: 343px;
+        /* width: 1140px; */
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .icons {
+        margin-top: 40px;
+    }
+    
+    .subscribe-person {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
