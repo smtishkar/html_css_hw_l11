@@ -628,6 +628,7 @@ a:hover {
 }
 
 .input_email {
+    width: 256px;
     border: none;
     height: 100%;
     border-top-left-radius: 50px;
@@ -744,11 +745,11 @@ a:hover {
     }
 
     li:hover>.submenu {
-        display: flex;
+        /* display: flex;
         clip: auto;
         width: 130px;
         height: auto;
-        margin: 0;
+        margin: 0; */
         left: -100%;
         /* margin-right: 100px; */
         /* right: 100%; */
@@ -1046,23 +1047,14 @@ a:hover {
     }
 
     .add-value-container {
-        /* width: 1140px; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: 1fr; */
         gap: 47px;
     }
 
     .subscribe {
         height: 550px;
         max-width: 100%;
-        /* display: flex; */
-        /* justify-content: center;
-        gap: 0px; */
         background-image: url("../img/subscrive\(phone\).png");
-        /* background-size: 100%; */
+
     
     }
 
@@ -1071,23 +1063,15 @@ a:hover {
     }
 
     .subscribe-info {
-        /* display: flex;
-        flex-direction: column; */
         gap: 60px;
     }
 
     .footer-container {
         height: 143px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center; */
     }
 
     .container-for-footer-info {
         max-width: 343px;
-        /* width: 1140px; */
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1106,4 +1090,29 @@ a:hover {
         align-items: center;
     }
     
+    .subscribe-person-text-first-part {
+        font-size: 18px;
+    }
+
+    .subscribe-person-text-second-part {
+        font-size: 18px;
+    }
+
+    .subscribe-person-text {
+        width: 343px;
+        display: flex;
+    }
+
+    .subscribe-actions-second-line {
+        font-size: 14px;
+    }
+
+    .input_email {
+        width: 245px;
+    }
+    
+    .btn-subscribe {
+        width: 96px;
+    }
+
 }
