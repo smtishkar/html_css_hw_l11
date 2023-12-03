@@ -233,7 +233,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(33, 22, 22, 0.70);;
+    background-color: rgba(33, 22, 22, 0.70);
 
 }
 
@@ -302,7 +302,7 @@ a:hover {
     gap: 30px;
 }
 
-.product-card-img-cont{
+/* .product-card-img-cont{
     position: relative;
 }
 
@@ -343,7 +343,49 @@ a:hover {
   } 
   .product-card-img-cont:hover button {   
     opacity: 1;
-  }
+  } */
+
+
+.product-card-img-cont{
+    position: relative;
+
+}
+
+
+.product-card-img-cont .product-card-img-cont-button{
+    display: none;
+    border: 1px solid #FFF;
+    background-color: inherit;
+    width: 138.614px;
+    height: 43.878px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    
+}
+
+.product-card-img-cont:hover .product-card-img-cont-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+
+
+}
+
+.product-card-img-cont:hover{
+    background: rgba(58, 56, 56, 0.86);
+
+}
+
 
 .selection-text {
     padding: 24px 16px;
@@ -465,8 +507,8 @@ a:hover {
 .subscribe{
     height: 448px;
     max-width: 100%;
-    /* display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center;
     gap: 0px; */
     background-image: url("../img/subscribe.png");
     background-size: 100%;
