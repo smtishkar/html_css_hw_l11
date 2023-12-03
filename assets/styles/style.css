@@ -851,12 +851,12 @@ a:hover {
 
     .subscribe {
         height: 693px;
-        max-width: 100%;
+        /* max-width: 100%; */
         display: flex;
         /* justify-content: center;
         gap: 0px; */
         background-image: url("../img/subscrive\(small\).png");
-        background-size: 100%;
+        /* background-size: 100%; */
     
     }
 
@@ -881,11 +881,11 @@ a:hover {
         align-items: center;
     }
 
+    .subscribe-person-text {
+        height: 99px;
+    }
+
     .subscribe-actions {
-        /* grid-column: span 2;
-        display: flex;
-        flex-direction: column;
-        align-items: center; */
         margin-left: 0px; 
         margin-top: 0px;
     }
@@ -896,21 +896,15 @@ a:hover {
 
     .btn-layout {
         padding-top: 27px;
-        /* padding-bottom: 30px;
-        height: 49px;
-        display: flex;
-        font-size: 14px;
-        font-weight: 400; */
     }
 
     .container-for-footer-info {
         max-width: 740px;
-        /* width: 1140px; */
         margin-left: auto;
-        margin-right: auto;
+        /* margin-right: auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; */
     }
 }
 
